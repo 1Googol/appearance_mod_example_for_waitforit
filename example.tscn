@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkl0cp6li7wqs"]
+
+[ext_resource type="SpriteFrames" uid="uid://c14wfl4ogwwm0" path="res://mod/3644196744/fox_white.tres" id="1_2jas5"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("1_2jas5")
+animation = &"think"
