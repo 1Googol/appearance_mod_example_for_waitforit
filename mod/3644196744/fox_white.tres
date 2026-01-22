@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=51 format=3 uid="uid://c14wfl4ogwwm0"]
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://c14wfl4ogwwm0"]
 
 [ext_resource type="Texture2D" uid="uid://jxcladxvw3lm" path="res://mod/3644196744/asset/drag/FA_FOXY2_Hurt_000.png" id="1_v4kyg"]
 [ext_resource type="Texture2D" uid="uid://bv82vwf4hwxvh" path="res://mod/3644196744/asset/drag/FA_FOXY2_Hurt_001.png" id="2_0oqb0"]
@@ -43,8 +43,18 @@
 [ext_resource type="Texture2D" uid="uid://c8to226egd3cv" path="res://mod/3644196744/asset/think/think_007.png" id="24_ggj6l"]
 [ext_resource type="Texture2D" uid="uid://yvs3p5rxahgc" path="res://mod/3644196744/asset/hitted/FA_FOXY2_Dead_009.png" id="24_u5pdo"]
 [ext_resource type="Texture2D" uid="uid://brixj7b05n267" path="res://mod/3644196744/asset/think/think_008.png" id="25_kjfvr"]
+[ext_resource type="Texture2D" uid="uid://qgxqbocabs7a" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_000.png" id="25_l0mcq"]
+[ext_resource type="Texture2D" uid="uid://djrj4ypis5icl" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_001.png" id="26_haa3r"]
 [ext_resource type="Texture2D" uid="uid://b4hppcpuun1k" path="res://mod/3644196744/asset/think/think_009.png" id="26_w6v8f"]
+[ext_resource type="Texture2D" uid="uid://bup8eewth8snu" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_002.png" id="27_1kldp"]
 [ext_resource type="Texture2D" uid="uid://b2q60jgo2bx17" path="res://mod/3644196744/asset/think/think_010.png" id="27_tmqgp"]
+[ext_resource type="Texture2D" uid="uid://5x4juqkqwanr" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_003.png" id="28_xiktn"]
+[ext_resource type="Texture2D" uid="uid://unx0bl8pvgj2" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_004.png" id="29_03jx1"]
+[ext_resource type="Texture2D" uid="uid://cc7tch5161p5p" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_005.png" id="30_kr1r7"]
+[ext_resource type="Texture2D" uid="uid://pf5qet78gofo" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_006.png" id="31_e1ju4"]
+[ext_resource type="Texture2D" uid="uid://h764h5ufs6iw" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_007.png" id="32_u5pdo"]
+[ext_resource type="Texture2D" uid="uid://c55b6ul3tsdhi" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_008.png" id="33_711nb"]
+[ext_resource type="Texture2D" uid="uid://c1toqwchogoyn" path="res://mod/3644196744/asset/keep_drag/FA_FOXY2_Hurt_Dizzy_009.png" id="34_jdftd"]
 [ext_resource type="Texture2D" uid="uid://cg7tdjq4h1nfk" path="res://mod/3644196744/asset/up/FA_FOXY2_Jump_UP_000.png" id="46_711nb"]
 [ext_resource type="Texture2D" uid="uid://crhtvtfacichx" path="res://mod/3644196744/asset/up/FA_FOXY2_Jump_UP_001.png" id="47_jdftd"]
 [ext_resource type="Texture2D" uid="uid://drsafm6aj3mcl" path="res://mod/3644196744/asset/up/FA_FOXY2_Jump_UP_002.png" id="48_xsuwv"]
@@ -138,6 +148,41 @@ animations = [{
 }],
 "loop": true,
 "name": &"hitted",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("25_l0mcq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_haa3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_1kldp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_xiktn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_03jx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_kr1r7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_e1ju4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_u5pdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_711nb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_jdftd")
+}],
+"loop": true,
+"name": &"keep_drag",
 "speed": 5.0
 }, {
 "frames": [{
